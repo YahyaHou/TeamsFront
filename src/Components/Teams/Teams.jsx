@@ -7,7 +7,7 @@ const Teams = () => {
 
   const getTeams = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/v1/teams");
+      const response = await axios.get("https://teamsepl-api.onrender.com");
       if (response.status === 200) {
         setTeams(response.data);
         console.log(response.data);
