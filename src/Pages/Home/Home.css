@@ -1,0 +1,21 @@
+.home{
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    flex-direction: column;
+    gap:20px
+}
+.homeBtn{
+    color: royalblue;
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

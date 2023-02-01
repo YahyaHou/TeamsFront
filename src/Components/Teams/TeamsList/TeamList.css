@@ -1,0 +1,13 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: rgb(32, 31, 31);
+    color: crimson;
+}
+.team img{
+    width: 150px;
+    height: 150px;
+}
